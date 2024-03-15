@@ -1,0 +1,146 @@
+body{
+    overflow: hidden;
+}
+
+
+.navbar{
+    display:flex;
+   flex-direction: row;
+   height: 15vh;
+   width: 100vw;
+   align-items: center;
+  justify-content: space-between;
+    
+}
+
+
+.logo{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.logo>h1>span{
+    color: #1A91F0;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.ref{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 50px;
+}
+
+
+.ref>a{
+   
+  color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 22px;
+   
+   
+}
+
+
+a:hover{
+    color: #1D88ED;
+}
+
+
+
+.main{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    
+}
+
+
+.left{
+    width: 50%;
+    height: calc(100%-15vh);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+   
+    
+}
+
+.right{
+    width: 50%;
+   object-fit: contain;
+    height: calc(100%-15vh);
+    position: relative;
+}
+
+.right>img{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+}
+
+
+.button{
+    padding: 0px 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: #E8F3FD;
+    border-radius: 20px;
+    width: 55%;
+   position: absolute;
+   top: 20%;
+   left: 25%;
+   margin-bottom: 5px;
+   color: #1D88ED;
+}
+
+
+.heading>h1{
+    position: absolute;
+    top:30% ;
+    left: 25%;
+    width: 80%;
+    font-size: 50px;
+    color: #13287E;
+}
+
+
+.heading>h2{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 100%;
+    line-height: 35px;
+    color: #8897BA;
+    font-size: 24px;
+}
+
+
+.con-btn{
+    background-color: #3E94E4;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    padding: 15px 35px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+
